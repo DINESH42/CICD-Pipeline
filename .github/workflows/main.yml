@@ -1,4 +1,4 @@
-name: food-restaurant
+name: CICD-Pipeline
 
 on:
   push:
