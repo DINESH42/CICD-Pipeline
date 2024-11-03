@@ -1,0 +1,15 @@
+{
+  "itemName": "Burger",
+  "price": 5.99,
+  "options": {
+    "Size": {
+      "minPermitted": 1,
+      "defaultQuantity": 1,
+      "options": {
+        "Small": 0.00,
+        "Medium": 1.00,
+        "Large": 2.00
+      }
+    }
+  }
+}
