@@ -4,7 +4,7 @@ import './App.css';
 // import GoToTop from './Components/GoToTop/GoToTop';
 // const ErrorPage = lazy(() => import('./Components/ErrorComponent/ErrorPage'));
 // const Header = lazy(() =>import ('./Components/Header/Header'));
-const AG_Grid =  lazy(() =>import ('./Components/AG_Grid/AG_Grid'));
+const AGGrid =  lazy(() =>import ('./Components/AG_Grid/AG_Grid'));
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <GoToTop/> */}
       {/* <MenueItems /> */}
       {/* <Header/> */}
-      <AG_Grid/>
+      <AGGrid/>
     </div>
   );
 }
